@@ -6,7 +6,7 @@ As example, an ABAP program is consuming this RESTful web service to get its ker
 ## How to build and launch:
 1) Clone this repo somewhere on your local disk
  ```sh
-  user@localhost:~>git clone git@github.wdf.sap.corp:SAPKERNEL/rest4git.git
+  user@localhost:~>git clone https://github.com/jwongso/rest4git.git
   ```
 2) Create build folder and create and configure make file using cmake
  ```sh
@@ -63,7 +63,7 @@ IF SY-SUBRC <> 0.
 "    Handle error.
 endif.
 " If successful, RESULT should contain following data:
-" 173fca33f296 (<juniarto.saputra@sap.com> 2022-08-04 12265)               //~ ?( { $key1.itabtype = $itabtype; } key1:ITAB_USING_KEY )
+" 173fca33f296 (<name@email.com> 2022-08-04 12265)               //~ ?( { $key1.itabtype = $itabtype; } key1:ITAB_USING_KEY )
 " Process the RESULT e.g. extract the email, date/time and code information
 ```
 
