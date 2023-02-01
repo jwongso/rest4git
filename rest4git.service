@@ -1,0 +1,16 @@
+[Unit]
+Description=systemd to start rest4git service.
+After=network.target
+
+[Service]
+Type=simple
+User=rest4git
+Group=rest4git
+WorkingDirectory=/local/rest4git/alx
+ExecStart=/local/rest4git/rest4git
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=[rest4git]
+
+[Install]
+WantedBy=multi-user.target
