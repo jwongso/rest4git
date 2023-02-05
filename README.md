@@ -77,4 +77,4 @@ or from console:
 to see the manual and examples
 
 ## Todo
-Redis c++ integration to cache/speed up blame or log requests
+Redis c++ integration to cache/speed up git blame and log related requests
