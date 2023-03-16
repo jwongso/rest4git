@@ -1,7 +1,7 @@
 # rest4git
 
 RESTful web service based on (header-only) Crow c++ microframework for web to support customized git commands. A client can be any application on any platform that support HTTP network protocols. One could setup this web service, implement several useful REST-routing APIs (using GET or POST request) and return expected data from local git repository instead consuming local git or github. Basically, in bigger scope, you could even implement your own repository web application using this web service / backend.
-As example, an ABAP program is consuming this RESTful web service to get its kernel's code source in c/c++.
+As example, an ABAP program is consuming this RESTful web service to get its kernel's code source in c/c++ e.g. to blame a source from core dump information.
 
 ## How to build and launch:
 1) Clone this repo somewhere on your local disk
